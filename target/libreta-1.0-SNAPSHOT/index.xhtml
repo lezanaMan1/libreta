@@ -8,8 +8,8 @@
     </h:head>
     <h:body>
         <h:form>
-            <p:inputText/>
-            <p:commandButton value="registrar"/>
+            <p:inputText value="#{categoriaController.categoria.nombre}"/>
+            <p:commandButton value="registrar" actionListener="#{categoriaController.registrar()}"/>
         </h:form>
     </h:body>
 </html>
